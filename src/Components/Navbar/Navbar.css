@@ -1,0 +1,90 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px (0,0,0, 0.2);
+    background: #fff;
+    position: sticky;
+    top:0;
+    z-index: 10;
+
+}
+.nav-left .menu{
+    width: 22px;
+   margin-right: 130px; 
+}
+.nav-middle .search-box{
+    border:1px soild #ccc ;
+    margin: right 15px;
+    padding:8px 12px;
+    border-radius:55px;
+
+}
+.nav-middle .search-box{
+    width: 400px;
+    border: 152px;
+    outline:0;
+    background:transparent;
+
+
+}
+.nav-middle .search-box img{
+    width: 15px;
+}
+.nav-right img{
+    width: 25px;
+    margin: right 25px;
+    justify-content: space-between;
+}
+.nav-right flex-div .profile{
+    width: 35px;
+    border-radius: 50%;
+
+}
+.nav-middle .search{
+    background: transparent;
+    border-color: transparent;
+
+
+}
+.nav-right img{
+    width: 25px;
+    margin-right: 25px;
+
+} 
+.nav-right .profile{
+    width: 35px;
+    border-radius:50%;
+}
+@media(max-width:900px){
+    .menu-icon{
+        diapay:none;
+    }
+    .nav-right img{
+        display:none;
+    }
+    .nav-right .user-icon{
+        display:block;
+        width:30px;
+    }
+    .logo{
+        width: 90px;
+    }
+    .small-sidebar h3{
+        dusplay:none;
+
+    }
+    .small-sidebar hr{
+        width:50%;
+        margin-bottom:25px;
+
+    }
+    .side-link.active img{
+        padding-bottom:2px;
+        border-bottom: 3px solid red;
+    }
+    @media (max-width:900px){
+        .sidebar{
+            display:none;
+        }
+    }
+}
